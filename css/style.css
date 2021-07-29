@@ -72,6 +72,10 @@ header p {
   margin: auto;
 }
 
+.accordion-border-color {
+  border-color: rgb(214, 229, 250);
+}
+
 #bg-carousel {
   background-color: #e8e8e8;
 }
