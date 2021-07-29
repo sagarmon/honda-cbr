@@ -34,3 +34,36 @@ header p {
   margin-top: 90px;
   margin-bottom: 90px;
 }
+
+.img-width {
+  width: 180px;
+  margin-top: 40px;
+}
+
+.blue-color-text {
+  color: rgb(46, 167, 237);
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.gray-color-text {
+  color: rgb(107, 107, 107);
+}
+
+.fa-star {
+  color: rgb(229, 124, 71);
+}
+
+.fa-star.filled {
+  color: rgb(229, 124, 71);
+}
+
+.star-margin-bottom {
+  margin-bottom: 15px;
+}
