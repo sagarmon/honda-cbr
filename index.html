@@ -8,11 +8,61 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>
-        Welcome!
-    </h1>
+    <!-- header section start -->
+    <header>
+        <section class="container-fluid bg-banner text-white py-5">
+            <div class="row d-flex align-items-center ms-5">
+                <div class="col-lg-6 col-sm-12 header-padding">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam <br> consequat sunt nostrud amet.</p>
+                    <!-- <button class="btn bg-purchase-button text-white px-5">Purchase</button> -->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-purchase-button text-white px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p id="modal-paragraph">Are you sure you want to purchase this bike?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn bg-purchase-button text-white">Confirm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="w-75" src="images/header-bike.png" alt="red honda cbr 300R">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <main>
+        <!-- featured bikes section start -->
+        <!-- featured bikes section end -->
+    </main>
 
 
 
