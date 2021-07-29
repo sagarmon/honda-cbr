@@ -67,3 +67,11 @@ header p {
 .star-margin-bottom {
   margin-bottom: 15px;
 }
+
+.carousel-inner img {
+  margin: auto;
+}
+
+#bg-carousel {
+  background-color: #e8e8e8;
+}
