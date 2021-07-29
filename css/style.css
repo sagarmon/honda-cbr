@@ -6,7 +6,7 @@ body {
   background-color: #264653;
 }
 
-header h1 {
+h1 {
   font-weight: 600;
 }
 
@@ -20,4 +20,17 @@ header p {
 
 #modal-paragraph {
   color: black;
+}
+
+.orange-color-text {
+  color: #e76f51;
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.featured-bikes-margin {
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
